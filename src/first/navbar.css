@@ -1,0 +1,22 @@
+.nav-menu{
+    width: 300px;
+    height: 100%;
+    display: block;
+    justify-content: left;
+    position:fixed;
+    top:0px;
+    left:-100%;
+    transition: 3000ms;
+}
+
+.nav-menu.active{
+    z-index: 999;
+    visibility: visible;
+    background-color: white;
+    left:0;
+    transition: 1000ms;
+}
+
+.nav-menu-items{
+    width: 100%;
+}
